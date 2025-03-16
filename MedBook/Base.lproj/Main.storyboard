@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ruG-mZ-WGV">
-                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MedBook" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S2W-g6-BJD">
@@ -47,9 +47,9 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="ruG-mZ-WGV" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="DF8-dP-u7b"/>
                             <constraint firstAttribute="bottom" secondItem="ruG-mZ-WGV" secondAttribute="bottom" id="Ghw-f6-DZ1"/>
                             <constraint firstItem="S2W-g6-BJD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="VIP-zY-unl"/>
-                            <constraint firstItem="ruG-mZ-WGV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="aRZ-Xu-0KR"/>
                             <constraint firstItem="ruG-mZ-WGV" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="bId-1t-UCA"/>
                             <constraint firstItem="ruG-mZ-WGV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="q6m-Ip-VW1"/>
                             <constraint firstItem="S2W-g6-BJD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="ynn-6g-NfH"/>
